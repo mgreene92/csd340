@@ -1,1 +1,49 @@
+/*
+    Name: Meghan Greene
+    Date: 09/27/2026
+    Assignment: Module 3.3
+*/
+
+h1 {
+    text-align: center;
+}
+
+#left, #right {
+    width: 45%;
+    float: left;
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    font-weight: 300;
+}
+
+#books, #left h3 {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#lessons, #right h3 {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
