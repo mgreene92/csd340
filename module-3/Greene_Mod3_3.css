@@ -6,49 +6,65 @@
 
 h1 {
     text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "sans-serif";
 }
-
-left {
-    width: 45%;
-    float: left;
-}
-
-right {
-    width: 45%;
-    float: left;
-}
-
-bottom {
-    width: 100%;
-    margin-top: 60%;
-    float: right;
-    margin-bottom: 20px;
-}
-
 h3 {
-    font-weight: 500;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "sans-serif";
+	font-weight: 500;
+}
+#left {
+    width: 45%;
+    float: left;
+	border: 1px solid red;
+    border-radius: 15px;
+	padding: 10px;
+
 }
 
-ol {
+#right {
+    width: 45%;
+    float: right;
+	border: 1px dashed red;
+    border-radius: 15px;
+	padding: 10px;
+}
+#space {
+	width: 100%;
+	margin-top: 60%;
+	
+}
+.link {
+	padding-top: 245px;
+	padding-right: 10px;
+	float: right;
+	width: 45%;
+	text-align: right;
+}
+
+#books {
     font-weight: 300;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "sans-serif";
+	
 }
 
-left {
-    border: 1px solid red;
-    border-radius: 15px;
-    padding: 10px;
-    list-style-position: inside;
+#lessons {
+	font-weight: 300;
+	list-style-type: upper-roman;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "sans-serif";
+	
 }
 
-right {
-    border: 1px dashed red;
-    border-radius: 15px;
-    padding: 10px;
-    list-style-type: upper-roman;
-    list-style-position: inside;
-}
 
+a:link {text-decoration: none;
+	color:blue;
+	font-weight: bold;
+}
+a:visited {
+	color: purple;
+}
+a:active {
+	color: rebeccapurple;
+}
 a:hover {
     text-decoration: underline;
 }
-
