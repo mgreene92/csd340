@@ -28,14 +28,14 @@ ol {
     font-weight: 300;
 }
 
-books, left h3 {
+left h3, books {
     border: 1px solid red;
     border-radius: 15px;
     padding: 10px;
     list-style-position: inside;
 }
 
-lessons, right h3 {
+right h3, lessons {
     border: 1px dashed red;
     border-radius: 15px;
     padding: 10px;
