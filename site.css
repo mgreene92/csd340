@@ -1,0 +1,56 @@
+/* Name: Meghan Greene
+Date: 09/27/2026
+Assignment: Module 3.2*/
+container {
+margin-top: 50px;
+margin-left: 100px;
+margin-right: 100px;
+}
+h1 {
+font-family: Arial, Verdana, sans-serif;
+font-weight: 700;
+color: white;
+background-color: deeppink;
+border: 1px; solid: black;
+text-align: left;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+h2 {
+font-family: Arial, Verdana, sans-serif;
+font-weight: 600;
+color: white;
+text-align: left;
+background-color: deeppink;
+border: 1px; solid: black;
+padding-top: 10px;
+padding-left: 10px;
+
+}
+h3, h4 {
+font-family: Arial, Verdana, sans-serif;
+font-weight: bold;
+background-color: deeppink;
+color: white;
+border: 1px; solid: black;
+padding: 10px;
+}
+body {
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+font-weight: 500;
+color: black;
+}
+a:link {text-decoration: none;
+color:blue;
+font-weight: bold;}
+a:hover {
+	color: deeppink;
+	text-decoration: underline;
+}
+a:visited {
+	color: darkblue;
+}
+a:active {
+	color: rebeccapurple;
+}
