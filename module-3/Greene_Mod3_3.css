@@ -8,12 +8,12 @@ h1 {
     text-align: center;
 }
 
-#left, #right {
+left, right {
     width: 45%;
     float: left;
 }
 
-#bottom {
+bottom {
     width: 100%;
     margin-top: 60%;
     float: right;
@@ -28,14 +28,14 @@ ol {
     font-weight: 300;
 }
 
-#books, #left h3 {
+books, left h3 {
     border: 1px solid red;
     border-radius: 15px;
     padding: 10px;
     list-style-position: inside;
 }
 
-#lessons, #right h3 {
+lessons, right h3 {
     border: 1px dashed red;
     border-radius: 15px;
     padding: 10px;
