@@ -1,1 +1,39 @@
+/* Meghan Greene 10/3/2026 - Module 4.2 */
+
+h1 {
+    text-align: center;
+    color: deeppink;
+}
+
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: deeppink;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: black;
+}
+
+#bottom {
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
