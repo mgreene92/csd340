@@ -11,7 +11,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.gallery-item {
+#gallery-item {
     border: 2px solid #ccc;
     padding: 15px;
     background-color: white;
@@ -32,7 +32,7 @@ figcaption {
     color: black;
 }
 
-.bottomlink {
+#bottomlink {
     margin-top: 40px;
     float: right;
     margin-bottom: 20px;
