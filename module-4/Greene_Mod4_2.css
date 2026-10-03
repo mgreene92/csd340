@@ -3,7 +3,7 @@
 h1 {
     font-family: Arial, Verdana, sans-serif;
     text-align: center;
-    color: deeppink;
+    color: rgba(198,16,116,1.00);
 }
 
 #image-gallery {
@@ -17,15 +17,14 @@ img.medium {
     height:250px;}
 #image-box-1, #image-box-2, #image-box-3 {
     border: 2px solid;
-    color: deeppink;
+    border-color: rgba(215,15,121,1.00);
     padding: 15px;
-    background-color: white;
     border-radius: 8px;
 }
 h3 {
     font-family: Arial, Verdana, sans-serif;
     text-align: center;
-    color: deeppink;
+    color: rgba(198,16,116,1.00);
 }
 
 figure {
@@ -36,7 +35,7 @@ figcaption {
     font-family: Arial, Verdana, sans-serif;
     font-style: italic;
     font-size: .75em;
-    color: black;
+    color: rgba(31,31,31,1.00);
 }
 
 a {
