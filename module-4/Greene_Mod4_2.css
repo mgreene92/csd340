@@ -11,8 +11,9 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-#gallery-item {
-    border: 2px solid #ccc;
+#image-box-1 {
+    border: 2px solid;
+    color: deeppink;
     padding: 15px;
     background-color: white;
     border-radius: 8px;
