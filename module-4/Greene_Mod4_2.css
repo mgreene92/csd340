@@ -1,6 +1,7 @@
 /* Meghan Greene 10/3/2026 - Module 4.2 */
 
 h1 {
+    font-family: Arial, Verdana, sans-serif;
     text-align: center;
     color: deeppink;
 }
@@ -11,7 +12,10 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.image-box-1, .image-box-2, .image-box-3 {
+img.medium {
+    width:250px;
+    height:250px;}
+#image-box-1, #image-box-2, #image-box-3 {
     border: 2px solid;
     color: deeppink;
     padding: 15px;
@@ -19,6 +23,7 @@ h1 {
     border-radius: 8px;
 }
 h3 {
+    font-family: Arial, Verdana, sans-serif;
     text-align: center;
     color: deeppink;
 }
@@ -28,6 +33,7 @@ figure {
 }
 
 figcaption {
+    font-family: Arial, Verdana, sans-serif;
     font-style: italic;
     font-size: .75em;
     color: black;
