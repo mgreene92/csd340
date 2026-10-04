@@ -10,6 +10,7 @@ h1 {
     margin-top: 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    border-radius: 0px;
 }
 img.medium {
     width:220px;
