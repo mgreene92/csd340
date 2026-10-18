@@ -1,10 +1,23 @@
 /* Meghan Greene, October 18, 2026, Assignment 6.2 */
+@import url("https://fonts.cdnfonts.com/css/aptos");
 
 header {
     background-color: #2a6f4f;
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+header {
+    font-family: "Aptos Display", sans-serif;
+}
+
+body, p, a, li {
+    font-family: "Aptos", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Aptos Display", sans-serif;
 }
 
 h1 {
