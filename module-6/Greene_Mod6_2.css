@@ -1,0 +1,84 @@
+/* Meghan Greene, October 18, 2026, Assignment 6.2 */
+
+header {
+    background-color: #2a6f4f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #1f4d38;
+    border-bottom: 15px solid #3b8c6e;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #3b8c6e;
+    color: white;
+}
+
+#container {
+    margin-top: 2 percent;
+    margin-left: 5 percent;
+    margin-right: 5 percent;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50 percent;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #2a6f4f;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+footer {
+    background-color: #2a6f4f;
+    position: absolute;
+    bottom: 0;
+    width: 100 percent;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
