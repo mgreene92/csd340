@@ -72,13 +72,13 @@ h1 {
     padding: 2px 16px;
 }
 
-footer {
+#footer {
     background-color: #2a6f4f;
     bottom: 0;
     width: 100%;
 }
 
-footer p {
+#footer p {
     color: white;
     font-weight: 400;
     float: right;
@@ -86,7 +86,7 @@ footer p {
     font-style: italic;
 }
 
-footer a {
+#footer a {
     text-decoration: none;
     color: white;
     float: right;
