@@ -69,13 +69,17 @@ li {
 }
 
 img {
+    display: block;
     width: 400px;
     max-width: 100%;
+    margin: 20px auto;
     cursor: pointer;
     border-radius: 10px;
 }
 
+
 #message {
     font-size: 1.2em;
     margin-top: 15px;
+    text-align: center;
 }
