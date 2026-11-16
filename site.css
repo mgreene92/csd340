@@ -52,6 +52,9 @@ a:visited {
 a:active {
 	color: rebeccapurple;
 }
+li {
+	text-align: left;
+}
 img {
     width: 400px;
     max-width: 100%;
