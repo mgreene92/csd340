@@ -15,17 +15,17 @@
 <link href="../site.css" type="text/css" rel="stylesheet">
     <script>
         function changeImage() {
-            var image = document.getElementById("resinImage");
+            var image = document.getElementById("BallerinaPainting");
             var message = document.getElementById("message");
 
-            if (image.src.includes("unfinished.jpg")) {
-                image.src = "finished.jpg";
+            if (image.src.includes("Ballerina_Unfinished.jpeg")) {
+                image.src = "Ballerina_Finished.jpeg";
                 message.innerHTML =
-                    "The resin project is complete! Click the image again to return to the unfinished version.";
+                    "The painting is complete! Click the image again to return to the unfinished version.";
             } else {
-                image.src = "unfinished.jpg";
+                image.src = "Ballerina_Unfinished.jpeg";
                 message.innerHTML =
-                    "This is the project before resin is poured. Click the image to see the finished result.";
+                    "This is the painting in the first stage. Click the image to see the finished result.";
             }
         }
     </script>
@@ -38,13 +38,13 @@
     <h3>Click the image to view the transformation</h3>
 
     <img
-        id="resinImage"
-        src="unfinished.jpg"
-        alt="Resin Project"
+        id="BallerinaPainting"
+        src="Ballerina_Unfinished.jpeg"
+        alt="Ballerina Painting"
         onclick="changeImage()">
 
     <p id="message">
-        This is the project before resin is poured. Click the image to see the finished result.
+        This is the painting in the first stage. Click the image to see the finished result.
     </p>
 
 </body>
